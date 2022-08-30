@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_maps_place_picker/google_maps_place_picker.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-// Your api key storage.
-import 'keys.dart';
+
+
 
 void main() => runApp(MyApp());
 
@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
                     MaterialPageRoute(
                       builder: (context) {
                         return PlacePicker(
-                          apiKey: APIKeys.apiKey,
+                          apiKey: 'AIzaSyAxfMcSxjfNjScA-i1Wrx1ZsL-2uK4cIBg',
                           initialPosition: HomePage.kInitialPosition,
                           useCurrentLocation: true,
                           selectInitialPosition: true,
